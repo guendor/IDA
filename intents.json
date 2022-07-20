@@ -4,7 +4,7 @@
             "tag": "welcome",
             "patterns": ["oi", "bom dia", "boa tarde", "boa noite",
                          "good morning", "hi", "hello", "Olá"],
-            "responses": ["Olá, eu sou sua assistente virtual, em que posso te ajudar?"],
+            "responses": ["Oi, eu sou sua assistente virtual, em que posso te ajudar?"],
             "context": [""]
         },
         {

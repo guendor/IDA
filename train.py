@@ -3,6 +3,8 @@ import pickle
 import nltk
 import random
 import numpy as np
+import nltk
+nltk.download('omw-1.4')
 
 from nltk.stem import WordNetLemmatizer
 from keras.models import Sequential

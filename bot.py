@@ -9,8 +9,8 @@ model = load_model('model.h5')
 intents = json.loads(open('intents.json').read())
 
 base = Tk()
-base.title("IDA")
-base.geometry("400x500")
+base.title("Interface Dialética de Aprendizado - IDA")
+base.geometry("410x500")
 base.resizable(width=FALSE, height=FALSE)
 
 
@@ -59,8 +59,8 @@ SendButton = Button(base, font=('Verdana', 10, 'bold'), text='Enviar',
 EntryBox = Text(base, bd=0, bg='white', width='29', height='2', font='Arial')
 
 # Joga todos os componentes na tela:
-scrollbar.place(x=376, y=6, height=386)
-Chat.place(x=6, y=6, height=386, width=370)
+scrollbar.place(x=386, y=6, height=386)
+Chat.place(x=6, y=6, height=386, width=380)
 EntryBox.place(x=128, y=401, height=50, width=260)
 SendButton.place(x=6, y=401, height=50)
 
