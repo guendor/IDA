@@ -1,7 +1,7 @@
 # IDA
 Interface Dialética de Aprendizado
 
-0 - IDA é um projeto que utiliza conversas num chatbot para promover questões filosóficas e conversas reflexivas utilizando o método da dialética.
+0 - IDA é um projeto que utiliza conversas num chatbot para promover questões filosóficas (protótipo) e conversas reflexivas utilizando o método da dialética.
 
 1 - Como ferramenta utiliza uma rede neural de 3 camadas, com 128 neurônios, 64 neurônios e saída. 
 
